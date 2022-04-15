@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextjsamplifydatastore",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-fcb420b4-f3dc-4590-9b7f-8aa1e4e5a7df/amplify/backend/api/nextjsamplifydatastore/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
